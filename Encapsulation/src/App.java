@@ -1,14 +1,14 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Student s1 = new Student(null, 0, 0);
-        s1.setName("Mubarak");
-        s1.setAge(22);
-        s1.setGpa(3.82);
+        Student student1 = new Student(null, 0, 0);
+        student1.setName("Mubarak");
+        student1.setAge(22);
+        student1.setGpa(3.82);
 
-        System.out.println("Name: " + s1.getName());
-        System.out.println("Age: " + s1.getAge());
-        System.out.println("GPA: " + s1.getGpa());
+        System.out.println("Name: " + student1.getName());
+        System.out.println("Age: " + student1.getAge());
+        System.out.println("GPA: " + student1.getGpa());
 
     }
 }
